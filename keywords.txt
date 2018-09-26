@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For CircusWifiLib
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+
+CircusWifiLib	KEYWORD1	CircusWifiLib
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# CircusWifiLib Class
+begin	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+wifiStatus	KEYWORD2
+circusServerStatus	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
