@@ -3,7 +3,7 @@
 The CircusWifiLib implements the circusofthings.com API for those Arduino systems that communicate with the server through an external wifi module ESP8266
 
 For more information about this library please visit us at
-https://www.circusofthings.com/libraries/arduino.jsp
+https://circusofthings.com/implement_arduino.jsp
 
 == License ==
 
