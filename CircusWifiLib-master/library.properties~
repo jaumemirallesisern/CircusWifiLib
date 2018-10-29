@@ -1,0 +1,10 @@
+name=Jaume Miralles Isern
+version=1.1.0
+author=Jaume Miralles Isern
+maintainer=Jaume Miralles Isern <info@circusofthings.com>
+sentence=Implements the circusofthings API when used with Arduino and an external wifi module ESP8266.
+paragraph=Will let you implement the commands "ReadValue(key)" and "WriteValue(key,value)" on your Arduino so you can access / feed the signals you are allowed to for your user account in circusofthings.com.
+category=Signal Input/Output
+url=https://circusofthings.com
+architectures=*
+dot_a_linkage=true
