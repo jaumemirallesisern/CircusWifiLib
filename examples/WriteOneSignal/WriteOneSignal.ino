@@ -24,15 +24,15 @@
 
 int TXPinForWifiModule = 2;               // IO port in your arduino you will use as TX for serial communication with the wifi module
 int RXPinForWifiModule = 3;               // IO port in your arduino you will use as RX for serial communication with the wifi module
-char ssid[] = "JAZZTEL_rkf6";             // your wifi network SSID
-char pass[] = "bthsgwkym7mf";             // your wifi network password
+char ssid[] = "your_ssid_here";           // your wifi network SSID
+char pass[] = "your_wifi_password_here";  // your wifi network password
 int wifiSerialBaudRate = 9600;            // Baud rate between your arduino and your wifi module. Did you check that your module actually uses this baud rate?
 int debugSerialBaudRate = 9600;           // Baud rate between your arduino and your computer
-char token[] = "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxIiwic3ViIjoiSmF1bWUgTWlyYWxsZXMiLCJpc3MiOiJ1c2VyYXJlYS1qc3AtcGFnZSJ9.QUQDrrMAgbZZZrkNwQ4CnWWE2QCaTSMhz6ldboHBlSWot_ZmeCqdREfIYl9t424RXcIUlsvUVWKAN9ARD5cIFw";    // Your API token for Circus
+char token[] = "your_token_here";         // Your API token for Circus
 char analogSignalTemperatureKey[] = "944668525";    // The key of the signal you have created at circusofthings.com
 
 SoftwareSerial ss(RXPinForWifiModule,TXPinForWifiModule);
-CircusWifiLib circus(Serial,&ss,ssid,pass,DEBUG_DEEP,KEEP_ALIVE);
+CircusWifiLib circus(Serial,&ss,ssid,pass,DEBUG_YES,KEEP_ALIVE);
 
 // ------------------------------------------------
 // These are the Example related declarations
