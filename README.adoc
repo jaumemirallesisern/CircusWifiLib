@@ -1,14 +1,12 @@
 = Circus Wifi Library =
 
 **********************************
-This repository is no longer used
+This repository is no longer used.
+
 Please look in to CircusESP01Lib for the maintained version
+
+https://github.com/jaumemirallesisern/CircusESP01Lib
 **********************************
-
-The CircusWifiLib implements the circusofthings.com API for those Arduino systems that communicate with the server through an external wifi module ESP8266
-
-For more information about this library please visit us at
-https://www.circusofthings.com/libraries/arduino.jsp
 
 == License ==
 
